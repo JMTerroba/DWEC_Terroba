@@ -1,0 +1,14 @@
+table {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+table thead {
+    background-color: rgb(156, 156, 189);
+}
