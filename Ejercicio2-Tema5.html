@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="Ejercicio2-Tema5.js"></script>
+</head>
+
+<body>
+    <h1>Calculadora de Gastos</h1>
+    <input type="text" id="nombre" placeholder="Nombre del gasto" required>
+    <input type="number" id="cantidad" placeholder="Cantidad" required>
+    <input type="date" id="fecha" required>
+    <button onclick="agregarGasto()">Agregar Gasto</button>
+
+    <h2>Lista de Gastos</h2>
+
+    <div class="gasto-lista" id="listaGastos"></div>
+    <div class="total" id="total">Total acumulado: 0.00€</div>
+</body>
+
+</html>
