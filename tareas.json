@@ -1,13 +1,13 @@
 [
     {
         "id": 1,
-        "nombre": "Estudiar JavaScript",
+        "nombre": "Jugar lol",
         "fechaEntrega": "2024-11-01",
         "completada": false
     },
     {
         "id": 2,
-        "nombre": "Hacer la compra",
+        "nombre": "Adorar PHP",
         "fechaEntrega": "2024-10-30",
         "completada": true
     }
